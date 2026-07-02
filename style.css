@@ -1,0 +1,63 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #006400; /* Verde bandeira */
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    margin: 40px 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Cartão de Conteúdo */
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+    border-top: 5px solid #FFD700; /* Detalhe em Amarelo Ouro */
+}
+
+button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #004d00;
+}
+
+footer {
+    margin-top: auto;
+    color: #777;
+    font-size: 0.9rem;
+    padding: 20px;
+}
